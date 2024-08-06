@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770739830296",
+    "project_id": "extbuy-f065f",
+    "storage_bucket": "extbuy-f065f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770739830296:android:8d0a6fb0c3f2e22f364d6d",
+        "android_client_info": {
+          "package_name": "com.extbuy.company"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUdTDBrH0M5xvySB5vceuCY7M4XKuYu5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
