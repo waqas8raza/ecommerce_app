@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
+import '../my_theme.dart';
+
 class BoxDecorations {
   static BoxDecoration buildBoxDecoration_1({double radius = 6.0}) {
     return BoxDecoration(
       borderRadius: BorderRadius.circular(radius),
-      color: Colors.white,
+      color: MyTheme.white,
       boxShadow: [
         BoxShadow(
           color: Colors.black.withOpacity(.08),

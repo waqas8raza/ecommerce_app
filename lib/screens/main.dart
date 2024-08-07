@@ -157,12 +157,12 @@ class _MainState extends State<Main> {
               type: BottomNavigationBarType.fixed,
               onTap: onTapped,
               currentIndex: _currentIndex,
-              backgroundColor: Colors.white.withOpacity(0.95),
+              backgroundColor: MyTheme.accent_color,
               unselectedItemColor: Color.fromRGBO(168, 175, 179, 1),
-              selectedItemColor: MyTheme.accent_color,
+              selectedItemColor: Colors.white.withOpacity(0.95),
               selectedLabelStyle: TextStyle(
                   fontWeight: FontWeight.w700,
-                  color: MyTheme.accent_color,
+                  color: Colors.white.withOpacity(0.95),
                   fontSize: 12),
               unselectedLabelStyle: TextStyle(
                   fontWeight: FontWeight.w400,
@@ -175,7 +175,7 @@ class _MainState extends State<Main> {
                       child: Image.asset(
                         "assets/home.png",
                         color: _currentIndex == 0
-                            ? MyTheme.accent_color
+                            ? Colors.white.withOpacity(0.95)
                             : Color.fromRGBO(153, 153, 153, 1),
                         height: 16,
                       ),
@@ -187,7 +187,7 @@ class _MainState extends State<Main> {
                       child: Image.asset(
                         "assets/categories.png",
                         color: _currentIndex == 1
-                            ? MyTheme.accent_color
+                            ? Colors.white.withOpacity(0.95)
                             : Color.fromRGBO(153, 153, 153, 1),
                         height: 16,
                       ),
@@ -199,7 +199,7 @@ class _MainState extends State<Main> {
                       child: badges.Badge(
                         badgeStyle: badges.BadgeStyle(
                           shape: badges.BadgeShape.circle,
-                          badgeColor: MyTheme.accent_color,
+                          badgeColor: MyTheme.brick_red,
                           borderRadius: BorderRadius.circular(10),
                           padding: EdgeInsets.all(5),
                         ),
@@ -209,7 +209,7 @@ class _MainState extends State<Main> {
                         child: Image.asset(
                           "assets/cart.png",
                           color: _currentIndex == 2
-                              ? MyTheme.accent_color
+                              ? Colors.white.withOpacity(0.95)
                               : Color.fromRGBO(153, 153, 153, 1),
                           height: 16,
                         ),
@@ -231,7 +231,7 @@ class _MainState extends State<Main> {
                     child: Image.asset(
                       "assets/profile.png",
                       color: _currentIndex == 3
-                          ? MyTheme.accent_color
+                          ? Colors.white.withOpacity(0.95)
                           : Color.fromRGBO(153, 153, 153, 1),
                       height: 16,
                     ),
